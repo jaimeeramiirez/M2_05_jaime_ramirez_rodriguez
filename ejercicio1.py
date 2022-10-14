@@ -1,7 +1,7 @@
 #EJERCICIO1
 print("\n")
 while True:
-    num1 = input("Introduzca el primer número el cual debe ser disinto de 0: ")
+    num1 = input("Introduzca el primer número, el cual, debe ser disinto de 0: ")
   
     try:
         num1 = int(num1)

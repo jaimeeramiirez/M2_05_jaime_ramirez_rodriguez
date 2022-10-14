@@ -1,7 +1,7 @@
 #EJERCICIO1
 print("\n")
 while True:
-    num1 = input("Introduzca el primer número el cual debe ser disinto de 0: ")
+    num1 = input("Introduzca el primer número, el cual, debe ser disinto de 0: ")
   
     try:
         num1 = int(num1)
@@ -26,14 +26,21 @@ print("\n\n\n")
 
 #EJERCICIO2
 
-numeros = list()
-A = numeros.append(input("Añade un numero: "))
-A = numeros.append(input("Añade un numero: "))
-A = numeros.append(input("Añade un numero: "))
-if numeros[0] == 0:
-  print("Error")
-elif numeros[0]<numeros[1]<numeros[2]:  
-  print("Estan en orden ascendente")
+lista=[]
+print("Introduce tres número diferentes: ")
+print("\n")
+for x in range(3):
+  lista.append(input("Introduce un número: "))
+print(lista)
+print("\n")
+
+while(lista[0]==0):
+  print("El primer número introducido no puede ser 0")
+if (lista[0]==0):
+  print("El primer número no es válido")
+elif lista[0]<lista[1]<lista[2]:  
+  print("Los números están en orden ascendente")
 else:
   print("No estan en orden ascendente")
-      
+  
+print("\n")
