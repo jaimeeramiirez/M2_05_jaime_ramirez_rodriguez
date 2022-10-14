@@ -1,14 +1,26 @@
 #EJERCICIO1
-num1= int(input("Introduce el primer número: "))
-num2= int(input("Introduce el segundo número: "))
-num3= int(input("Introduce el tercer número: "))
+print("\n")
 while True:
-  if num1==0:
-    print("Prueba de nuevo, el primer número no puede ser igual a 0")
-  elif num3>num2>num1:
-    print("Los números estan en orden ascendente")
-  else:
-    print("Los número están en orden descendente")
-  break
+    num1 = input("Introduzca el primer número: ")
+  
+    try:
+        num1 = int(num1)
+    except:
+        pass
+    else:
+
+        if num1!=0:
+
+            break
+num2= int(input("Introduzca el segundo número: "))
+num3= int(input("Introduzca el tercer número: "))
+
+print("\n")
+
+if (num3>=num2>=num1):
+  print("Los números estan en orden ascendente")
+else:
+  print("Los números no están en orden ascendente")
+  
 
 
