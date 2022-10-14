@@ -31,11 +31,9 @@ print("Introduce tres número diferentes: ")
 print("\n")
 for x in range(3):
   lista.append(input("Introduce un número: "))
-print(lista)
+
 print("\n")
 
-while(lista[0]==0):
-  print("El primer número introducido no puede ser 0")
 if (lista[0]==0):
   print("El primer número no es válido")
 elif lista[0]<lista[1]<lista[2]:  
@@ -43,4 +41,6 @@ elif lista[0]<lista[1]<lista[2]:
 else:
   print("No estan en orden ascendente")
   
+print("\n")
+print(lista)  
 print("\n")
