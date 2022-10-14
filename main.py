@@ -24,8 +24,8 @@ else:
 
 print("\n\n\n")
 
-#EJERCICIO2
 
+#EJERCICIO2
 lista=[]
 print("Introduce tres número diferentes: ")
 print("\n")
@@ -44,3 +44,14 @@ else:
 print("\n")
 print(lista)  
 print("\n")
+
+
+#EJERCICIO3
+print("\n")
+texto= input("Introduce el texto que quieras: ")
+contador_letras=0
+for letra_a in texto:
+  if letra_a == "a":
+    contador_letras= contador_letras + 1
+print(f"En el texto aparecen {contador_letras} letras a")
+  
