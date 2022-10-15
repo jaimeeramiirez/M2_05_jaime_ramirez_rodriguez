@@ -1,4 +1,5 @@
-#EJERCICIO4.- 
+#EJERCICIO4.- Crearemos una lista que imprimiremos por pantalla, miraremos cual es el elemento de la lista con más caracteres y lo imprimiremos por pantalla.
+
 deportes = ["Baloncesto", "Futbol", "Tenis", "Golf", "Natación"]
 print(deportes)
 
