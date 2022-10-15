@@ -65,18 +65,12 @@ print(deportes)
 
 print("\n")
 
-print(deportes[0],";",len(deportes[0]))
-print(deportes[1],";", len(deportes[1]))
-print(deportes[2],";", len(deportes[2]))
-print(deportes[3],";", len(deportes[3]))
-print(deportes[4],";", len(deportes[4]))
+print(deportes[0],"-->",len(deportes[0]))
+print(deportes[1],"-->", len(deportes[1]))
+print(deportes[2],"-->", len(deportes[2]))
+print(deportes[3],"-->", len(deportes[3]))
+print(deportes[4],"-->", len(deportes[4]))
 print("\n")
 
-print(f"El elemento con mas caracteres es: ", deportes[0])
-deportes.sort(key=len)
-print(deportes)
-
-deportes.sort(key=len, reverse = True)
-print(deportes)
-
+print(f"El elemento con más caracteres es: ", deportes[0])
 print("\n")

@@ -1,4 +1,4 @@
-#EJERCICIO1
+#EJERCICIO1.- Para este ejercicio, la parte más "compleja" es utliziar el "While True" y las excepciones para pedirle al usuario que introduzca el primer número distinto de 0. A partir de ahí sencillamente, utilzaremos un condicional con el tamaño de los número para ver si están en orden ascendente o no
 print("\n")
 while True:
     num1 = input("Introduzca el primer número, el cual, debe ser disinto de 0: ")
@@ -22,4 +22,4 @@ if (num3>num2>num1):
 else:
   print("Los números no están en orden ascendente")
 
-print("\n\n\n")
+print("\n\n\n\n")
