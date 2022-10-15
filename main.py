@@ -22,7 +22,7 @@ if (num3>num2>num1):
 else:
   print("Los números no están en orden ascendente")
 
-print("\n\n\n")
+print("\n\n\n\n")
 
 
 #EJERCICIO2
@@ -34,7 +34,7 @@ for x in range(3):
 
 print("\n")
 
-if (lista[0]==0):
+if ((lista[0])==0):
   print("El primer número no es válido")
 elif lista[0]<lista[1]<lista[2]:  
   print("Los números están en orden ascendente")
@@ -47,11 +47,23 @@ print("\n")
 
 
 #EJERCICIO3
+texto = input("Introduce tu texto: ")
+contador_letra = 0
+for letra in texto:
+  if letra == "a":
+    contador_letra = contador_letra + 1
+  elif texto == ".":
+    break
+print(f"En el texto aparecen {contador_letra} letras a.")
+
+
 print("\n")
-texto= input("Introduce el texto que quieras: ")
-contador_letras=0
-for letra_a in texto:
-  if letra_a == "a":
-    contador_letras= contador_letras + 1
-print(f"En el texto aparecen {contador_letras} letras a")
+
+
+#EJERCICIO4
+
+
+
+
+
   
